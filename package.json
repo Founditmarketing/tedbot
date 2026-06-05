@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:api": "tsx scripts/devApi.ts",
     "build": "vite build",
     "preview": "vite preview",
+    "gen:icons": "node scripts/genIcons.mjs",
     "refresh:brands": "tsx scripts/refreshBrandIntel.ts"
   },
   "dependencies": {
@@ -22,6 +24,7 @@
     "@types/react": "^19.2.16",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.0.0",
+    "sharp": "^0.34.5",
     "tsx": "^4.19.2",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
