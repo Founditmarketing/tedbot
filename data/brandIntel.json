@@ -1,0 +1,103 @@
+{
+  "generatedAt": "2026-06-05T16:10:00.041Z",
+  "model": "gemini-2.5-flash",
+  "grounded": true,
+  "brands": [
+    {
+      "name": "Castangia 1850",
+      "notes": "Castangia 1850 is renowned for its enduring Italian sartorial tradition, specializing in exquisite handmade suits and sport coats that blend classic aesthetics with modern elegance, characterized by soft shoulders and a tailored yet comfortable fit. Customers seek their meticulously crafted pieces, including seasonal collections (e.g., SS 25, FW 24/25) and made-to-measure offerings, made with the finest materials. The brand suits discerning individuals who desire refined luxury for business, black-tie events, and general sophisticated wear, appealing to a cosmopolitan clientele seeking timeless style and quality over quantity."
+    },
+    {
+      "name": "Canali",
+      "notes": "Canali is renowned for its Italian craftsmanship and timeless elegance, best known for impeccably tailored suits with a signature soft, natural shoulder silhouette, and high-quality casualwear. Current collections feature versatile pieces like fluid belted coats, lightweight tailoring, and textured knitwear, incorporating themes like \"Inner Beauty\" for spring/summer and \"lounge-formal ease\" for fall/winter, often inspired by Italian heritage or luxury automobiles. The brand suits discerning gentlemen seeking understated luxury for business, formal events, and sophisticated leisure, valuing Made in Italy excellence and superior comfort."
+    },
+    {
+      "name": "Jack Victor",
+      "notes": "Jack Victor is renowned for its signature aesthetic of timeless elegance merged with modern sensibility, characterized by meticulously tailored suits and sport coats crafted from the finest Italian fabrics, particularly high-quality wools. The brand is best known for its consistent Montreal-based craftsmanship, superior shoulder construction, and durable yet comfortable garments. Current collections, such as \"Golden Hour\" and \"The Art of Stillness\" (Fall 2025), feature both refined tailoring and luxurious sportswear with innovative textures, including pieces like stretch wool suits, blazers with removable hooded bibs, and cashmere knitwear, suitable for modern professionals, business, smart-casual events, and formal occasions."
+    },
+    {
+      "name": "Rochester Tailored Clothing",
+      "notes": "Rochester Tailored Clothing, operating from the historic Hickey Freeman factory since 1899, is renowned for its dedication to American luxury tailoring and maintaining high-quality craftsmanship through classic natural shoulder styling and full canvas construction. The brand specializes in premium tailored clothing, including suits, sport coats, and trousers, utilizing diverse materials such as wool, cashmere, and linen, with offerings that range from traditional to modern silhouettes. These pieces cater to a discerning customer, suitable for business, formal events, and elevated leisure, with made-to-measure options available."
+    },
+    {
+      "name": "Scabal",
+      "notes": "Scabal is renowned for its luxurious, high-quality fabrics, often incorporating rare materials like diamonds and gold, crafted at its heritage English mill, and is best known for pioneering superfine wools and the fabric bunch system. Customers can seek meticulously tailored suits, jackets, and trousers in current collections like \"Image\" for refined suiting, \"Jazz\" for vibrant summer jackets, or \"Dynamic\" for travel-friendly, crease-resistant pieces. Scabal caters to formal events, black-tie occasions with special edition fabrics, sophisticated business wear, and elegant leisure attire, appealing to a discerning clientele seeking bespoke precision and timeless style."
+    },
+    {
+      "name": "Bugatchi",
+      "notes": "Bugatchi is a luxury menswear brand known for its refined aesthetic, combining modern design with exceptional comfort and quality through premium fabrics, thoughtful craftsmanship, and a distinct expertise in vibrant prints and rich colors. The brand is best known for its versatile woven shirts, especially those featuring its proprietary OoohCotton® technology, which offers wrinkle-resistance, breathability, and eight-way stretch, making them ideal for everyday luxury. Customers seek elevated sport shirts, casual and dress shirts, polos, knitwear, blazers, and performance outerwear, suitable for a range of occasions from smart-casual and business settings to leisure, travel, and resort wear."
+    },
+    {
+      "name": "Fedeli",
+      "notes": "Fedeli is an Italian luxury menswear brand renowned for its \"quiet luxury\" aesthetic, emphasizing understated elegance, uncompromising quality, and exceptional craftsmanship, particularly in fine knitwear and cashmere. The brand is known for treating cashmere as an everyday wear fabric and utilizes fine materials like cashmere blends, linen, and organic cotton. Current and recent collections feature luxurious yet laid-back wardrobe essentials, including breezy cotton-voile shirts, sustainably produced swim trunks, cashmere-linen knits, lightweight polos, and structured shirts, suiting the discerning gentleman for leisure, warm-weather adventures, and versatile occasions from relaxed weekends to business dinners."
+    },
+    {
+      "name": "Greyson",
+      "notes": "Greyson's signature aesthetic seamlessly blends performance-driven sportswear with tailored fashion, renowned for innovative designs using technical fabrics and sophisticated styles that often incorporate unique prints alongside versatile wardrobe essentials. Customers seek their popular polo shirts (e.g., Crowley Icon, Omaha) and Montauk Trousers from collections like \"Summer '26\" or specialized golf and NFL collaborations. The brand suits a high-end customer desiring functional, fashion-forward apparel for active pursuits, leisure, and smart-casual settings."
+    },
+    {
+      "name": "Johnnie-O",
+      "notes": "Johnnie-O is a premium lifestyle brand defined by its \"West Coast Prep\" aesthetic, blending laid-back California style with classic East Coast preppy elements, and is best known for its golf apparel and the patented \"Tweener Button\" on polos and button-downs. Customers seek out their versatile PREP-FORMANCE™ polos, quarter-zips, and chinos, which seamlessly transition from the golf course to business casual environments and leisure activities. The brand caters to individuals desiring refined yet comfortable clothing for various occasions, from athletic pursuits to social events."
+    },
+    {
+      "name": "Stenströms",
+      "notes": "Stenströms is renowned for its signature \"formal-relaxed\" aesthetic, combining timeless elegance and understated Swedish style (\"lagom\") with uncompromising quality and sustainable craftsmanship, particularly excelling in shirts. The brand is best known for its high-quality shirts, including dress, casual, linen, and patterned options, alongside luxurious knitwear and outerwear, with recent collections focusing on versatile monochrome layering and refined textures. Stenströms clothing is suitable for a wide range of occasions, from business and formal events like black tie, to smart-casual gatherings and leisure activities, appealing to customers who value sophisticated, durable pieces with a perfect fit."
+    },
+    {
+      "name": "Giannetto",
+      "notes": "Giannetto is an Italian luxury menswear brand renowned for its sartorial mastery and timeless elegance, embodying the relaxed, sun-drenched aesthetic of Southern Italy. The brand is best known for its high-quality shirts, including distinctive denim and sport shirts, often featuring a signature embroidered sun icon. These pieces, alongside blazers, trousers, and knitwear inspired by Mediterranean colors, suit a discerning customer seeking versatile, polished casual, and travel-ready attire that can also adapt to more formal settings."
+    },
+    {
+      "name": "Matteo Perin",
+      "notes": "Matteo Perin specializes in bespoke, understated, and sophisticated luxury menswear, known for its one-of-a-kind designs inspired by the client's lifestyle and handcrafted by Italian artisans, occasionally with a subtle American West influence. Customers seek completely customized formal wear, leisure attire, and exotic leather accessories such as crocodile jackets or ostrich bags, alongside fine cashmere and specialized outdoor wear. The brand caters to an elite clientele of international celebrities and business leaders desiring unique, high-quality pieces for all occasions, from black tie and business to luxury leisure and travel."
+    },
+    {
+      "name": "Di Bello",
+      "notes": "Di Bello is a luxury menswear and womenswear brand, primarily known for its high-quality, Italian-made outerwear, particularly in leather and sheepskin shearling. The brand's signature aesthetic emphasizes fine materials, wearability, meticulous detailing, and precise cutting, often featuring lambskin nappa, suede, and shearling jackets. Customers would be interested in their sophisticated leather and shearling jackets or coats, which often have a refined yet \"lived-in\" appeal. Di Bello suits a high-end clientele seeking elevated casual or smart leisure wear, as well as business casual attire, especially those valuing durable and stylish outerwear for diverse occasions."
+    },
+    {
+      "name": "Meyer",
+      "notes": "Meyer is a German luxury menswear brand, established in 1960, renowned for its precisely tailored trousers, chinos, and jeans, emphasizing a \"perfect fit\" alongside comfort, durability, and refined styling through meticulous craftsmanship. They are known for their commitment to sustainable production, utilizing organic and Fairtrade cotton in Europe, and offer versatile pieces like the classic Roma and Rio chinos, modern slim-fit Bonn trousers, and performance-oriented MEYER ACTIVE wear. The brand suits a discerning customer seeking high-quality garments for various occasions, from formal business and weddings to smart-casual events and active leisure."
+    },
+    {
+      "name": "Ballin",
+      "notes": "Ballin is a leading North American manufacturer of premium men's trousers and shorts, known for a classic, comfortable, and performance-oriented aesthetic that emphasizes exceptional fit, craftsmanship, and the use of fine fabrics like Super 120s and Super 150s wool. The brand offers various fits (e.g., Soho, Houston, Drummond) in dress pants, casual pants, and shorts, often incorporating \"Comfort-EZE\" waistbands and wrinkle-resistant materials, suiting discerning customers for business, leisure, and travel. Note that the website ballin.it is associated with a separate luxury women's footwear brand."
+    },
+    {
+      "name": "Marco Pescarolo",
+      "notes": "Marco Pescarolo is a luxury menswear brand known for embodying Neapolitan sartorial tradition, combining impeccable craftsmanship with contemporary style, and is best recognized for its high-quality trousers with an exceptional fit and attention to detail. Customers can expect versatile pieces like finely tailored dress pants, casual trousers, and denim, often crafted from premium materials such as cashmere, wool, linen, and silk, with recent collections (SS26) emphasizing natural tones and comfortable, functional designs. The brand suits the modern man who appreciates discreet luxury and Italian elegance, offering garments appropriate for a range of occasions from business and formal events to travel and sophisticated leisure."
+    },
+    {
+      "name": "B Settecento",
+      "notes": "B Settecento is an Italian luxury menswear brand renowned for its exquisite tailoring and unequaled Italian craftsmanship, specializing in men's trousers with a focus on achieving the best possible fit. The brand is known for its Neapolitan sartorial tradition blended with contemporary style, utilizing premium fabrics like washed and organic stretch cotton, linen, wool, cashmere, and silk for a refined slim fit. B Settecento trousers are ideal for the discerning customer seeking versatile pieces for both business and sophisticated casual-chic occasions."
+    },
+    {
+      "name": "Paige",
+      "notes": "Paige menswear is renowned for its premium denim, characterized by an exceptional fit, comfort, and a polished West Coast minimalist aesthetic that integrates well-made, versatile basics. The brand offers lifestyle pieces including various denim cuts (slim, straight, tapered), utility-inspired jackets, sophisticated casual shirts, trousers, and matching sets, often incorporating innovative stretch fabrics for durability and comfort. Paige suits the modern man seeking high-quality, effortlessly cool garments for elevated everyday wear, adaptable to a range of casual occasions from leisure to more refined settings."
+    },
+    {
+      "name": "On Running",
+      "notes": "On Running is a luxury performance brand recognized for its Swiss minimalist aesthetic, sleek designs, and patented CloudTec® cushioning technology, which provides a unique sensation of soft landings and explosive take-offs. Customers seek their versatile running shoes like the Cloud 5 or Cloudnova, alongside performance apparel such as technical shorts, jackets, and hoodies, often featuring clean lines and a refined palette suitable for both athletic pursuits and elevated everyday wear. The brand caters to active, fashion-conscious individuals for occasions ranging from serious training and urban commutes to leisure and casual office environments, blurring the lines between sportswear and contemporary fashion."
+    },
+    {
+      "name": "Magnanni",
+      "notes": "Magnanni is a Spanish luxury footwear brand renowned for its meticulously handcrafted men's shoes, distinguished by sleek silhouettes, signature hand-painted patinas, and flexible Bologna construction. The brand offers a diverse range including classic Oxfords, Derbies, Monk Straps, contemporary loafers, and sophisticated sneakers, often utilizing high-grade calfskin and exotic leathers. These pieces are ideal for customers seeking refined elegance and comfort for business, formal events, and elevated leisure."
+    },
+    {
+      "name": "Santoni",
+      "notes": "Santoni is a luxury Italian brand renowned for its artisanal craftsmanship, distinctive hand-applied patinas on high-quality leathers, and a unique aesthetic that balances timeless elegance with contemporary style. Customers seek their meticulously crafted formal footwear like Oxfords and Double Monk Straps, versatile loafers such as the Carlo, and comfort-focused \"Easy\" sneakers. The brand suits a discerning clientele for a range of occasions from black-tie events and business settings to elegant leisure and daily wear."
+    },
+    {
+      "name": "Officine Creative",
+      "notes": "Officine Creative is an Italian luxury brand renowned for its high-quality, handcrafted leather footwear and accessories, distinguished by a signature lived-in, distressed aesthetic achieved through over 100 intricate processes and innovative finishing techniques. Their collections feature sophisticated pieces like distressed leather boots, classic lace-ups, contemporary loafers, and sneakers, often reflecting themes of easy elegance and natural refinement as seen in their recent Summer '25 collection. The brand suits customers seeking luxury items that blend traditional craftsmanship with a modern, slightly rugged style, making them versatile for occasions ranging from formal business wear to elevated leisure and glam-rock inspired outfits."
+    },
+    {
+      "name": "G. Inglese",
+      "notes": "G. Inglese is an Italian luxury menswear brand renowned for its authentic handmade shirts, crafted with meticulous attention to detail and traditional techniques in Ginosa, Puglia, since 1955. The brand is celebrated for its timeless elegance and a distinctive flair that blends classic sartorial tradition with a modern aesthetic, famously crafting Prince William's wedding shirt. Customers seek out their exquisite handmade shirts (including classic, button-down, and denim styles), tailored jackets in bold checks and sophisticated patterns, and luxurious long-sleeve polo shirts and accessories like hand-sewn ties and fragrances. The brand suits high-end clients for various occasions, from refined business wear and smart casual leisure to significant formal events, appealing to those who appreciate \"Made in Italy\" craftsmanship, vibrant colors, and retro-inspired cloths."
+    },
+    {
+      "name": "Baccarat",
+      "notes": "Baccarat is primarily a French luxury house renowned for its fine crystal, not a menswear clothing brand. The brand's signature aesthetic is characterized by exquisite craftsmanship, dazzling reflections, and bold, timeless designs, exemplified by iconic pieces like the Harcourt glass and Zenith chandeliers. For a high-end clientele, Baccarat offers luxury crystal barware (e.g., Harcourt, Masséna, Mille Nuits collections), dining ware, and home décor items such as vases and animal sculptures, suitable for sophisticated entertaining, formal settings, or as premium gifts. These pieces elevate occasions demanding elegance and luxury, appealing to customers seeking refined home accents or unique statement gifts for a discerning lifestyle."
+    }
+  ]
+}
