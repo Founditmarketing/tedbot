@@ -83,12 +83,10 @@ export const AskTed = ({ defaultOpen = false }: { defaultOpen?: boolean }) => {
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const hasPlayedSoundRef = useRef(false);
 
-  // Newest message sits at index 0 (we prepend).
-  const latestMessage = messages.length > 0 ? messages[0] : null;
-  const isInputHidden =
-    latestMessage?.role === 'assistant' &&
-    ((latestMessage.buttons && latestMessage.buttons.length > 0) ||
-      (latestMessage.isCalendarPicker && !latestMessage.calendarSubmitted));
+  // Ted may offer quick-reply chips or a calendar, but the text field always
+  // stays available so a guest can type their own message instead of being
+  // limited to the suggested options.
+  const isInputHidden = false;
 
   // Restrict the calendar to future selections.
   const now = new Date();
