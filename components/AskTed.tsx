@@ -350,7 +350,7 @@ export const AskTed = ({ defaultOpen = false }: { defaultOpen?: boolean }) => {
                     className="absolute right-full top-1/2 -translate-y-1/2 -mt-6 whitespace-nowrap px-8 py-4 border-r border-gold-300/40 pointer-events-none mr-2"
                   >
                     <div className="flex flex-col items-end justify-center h-full">
-                      <span className="font-serif italic text-xl text-white leading-none">Ask Ted</span>
+                      <span className="font-serif italic text-xl text-cream leading-none">Ask Ted</span>
                       <p className="font-sans text-[10px] tracking-[0.5em] uppercase text-gold-300/60 mt-2 font-medium">
                         Personal Concierge
                       </p>
@@ -364,7 +364,7 @@ export const AskTed = ({ defaultOpen = false }: { defaultOpen?: boolean }) => {
                     className="absolute right-full top-1/2 -translate-y-1/2 -mt-6 whitespace-nowrap px-8 py-4 border-r border-gold-300/40 pointer-events-none mr-2"
                   >
                     <div className="flex flex-col items-end justify-center h-full">
-                      <span className="font-serif italic text-xl text-white leading-none">The Silver Standard</span>
+                      <span className="font-serif italic text-xl text-cream leading-none">The Silver Standard</span>
                       <p className="font-sans text-[10px] tracking-[0.5em] uppercase text-gold-300/60 mt-2 font-medium">
                         Established 1899
                       </p>
@@ -487,7 +487,7 @@ export const AskTed = ({ defaultOpen = false }: { defaultOpen?: boolean }) => {
                         <div
                           className={`${
                             msg.role === 'assistant'
-                              ? 'font-serif font-normal text-[19px] text-white/90 leading-snug italic'
+                              ? 'font-serif font-normal text-[19px] text-cream/90 leading-snug italic'
                               : 'font-sans text-[12px] tracking-[0.15em] uppercase text-gold-300/70 border-r border-gold-300/20 pr-3 leading-normal'
                           } whitespace-pre-line`}
                         >
@@ -685,7 +685,7 @@ export const AskTed = ({ defaultOpen = false }: { defaultOpen?: boolean }) => {
                         onChange={(e) => setInput(e.target.value)}
                         onKeyDown={(e) => e.key === 'Enter' && onSend(input)}
                         placeholder="Message Ted..."
-                        className="flex-1 bg-transparent py-3 text-white/90 placeholder:text-white/40 text-[16px] focus:outline-none font-sans tracking-wide"
+                        className="flex-1 bg-transparent py-3 text-cream/90 placeholder:text-cream/40 text-[16px] focus:outline-none font-sans tracking-wide"
                       />
                       <button onClick={() => onSend(input)} disabled={!input.trim() || isTyping} className="group ml-2">
                         <div
