@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion, useReducedMotion, type Variants } from 'framer-motion';
 import { AskTed } from './components/AskTed';
+import { InstallPrompt } from './components/InstallPrompt';
 
 const EASE = [0.16, 1, 0.3, 1] as const;
 
@@ -115,6 +116,9 @@ function App() {
 
       {/* The concierge. Opens docked on desktop, bell on mobile. */}
       <AskTed defaultOpen={typeof window !== 'undefined' && window.innerWidth >= 1024} />
+
+      {/* "Add to home screen" prompt (PWA install). */}
+      <InstallPrompt />
     </div>
   );
 }
