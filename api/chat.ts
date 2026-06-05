@@ -77,7 +77,7 @@ export default async function handler(request: VercelRequest, response: VercelRe
 
   try {
     const genAI = new GoogleGenerativeAI(apiKey);
-    const modelName = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
+    const modelName = process.env.GEMINI_MODEL || 'gemini-3.5-flash';
     const systemInstruction = composeSystemInstruction(getBrandIntelText());
 
     const contents = messages
