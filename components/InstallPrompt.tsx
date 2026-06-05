@@ -98,7 +98,7 @@ export const InstallPrompt = () => {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 40 }}
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-          className="fixed bottom-6 left-1/2 z-[95] w-[calc(100vw-2rem)] max-w-sm -translate-x-1/2 sm:bottom-10 sm:left-10 sm:translate-x-0"
+          className="fixed inset-x-3 z-[95] mx-auto max-w-sm bottom-[calc(0.75rem+env(safe-area-inset-bottom))] sm:inset-x-auto sm:left-10 sm:right-auto sm:mx-0 sm:bottom-10"
         >
           <div className="relative overflow-hidden rounded-2xl border border-gold-300/20 bg-[#091521]/95 p-5 shadow-2xl backdrop-blur-xl">
             <div

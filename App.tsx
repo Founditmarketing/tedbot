@@ -22,12 +22,12 @@ function App() {
 
   return (
     <div className="relative min-h-[100dvh] w-full overflow-hidden bg-navy-900 text-cream font-sans">
-      {/* Backdrop photograph */}
+      {/* Backdrop photograph — more visible on phones, softer overlay on small screens */}
       <div
-        className="absolute inset-0 bg-cover bg-center opacity-25"
+        className="absolute inset-0 bg-cover bg-center opacity-45 sm:opacity-25"
         style={{ backgroundImage: "url('/bowtieheader.jpg')" }}
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-navy-900/75 via-navy-900/88 to-navy-900" />
+      <div className="absolute inset-0 bg-gradient-to-b from-navy-900/35 via-navy-900/50 to-navy-900/80 sm:from-navy-900/75 sm:via-navy-900/88 sm:to-navy-900" />
 
       {/* Atmospheric gold glow — sits behind the headline on desktop, low chroma */}
       <motion.div
@@ -42,9 +42,9 @@ function App() {
         transition={reduce ? { duration: 1.2 } : { duration: 9, repeat: Infinity, ease: 'easeInOut' }}
       />
 
-      {/* Edge vignette for depth */}
+      {/* Edge vignette for depth — eased back on phones so the photo reads */}
       <div
-        className="absolute inset-0 pointer-events-none"
+        className="absolute inset-0 pointer-events-none opacity-40 sm:opacity-100"
         style={{
           backgroundImage:
             'radial-gradient(120% 120% at 50% 40%, transparent 55%, rgba(5, 14, 23, 0.65) 100%)',
