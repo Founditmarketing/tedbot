@@ -122,16 +122,30 @@ CONTROL TOKENS (the app strips these — they are never shown to the user)
 `.trim();
 
 /**
- * Build the full system instruction, optionally injecting freshly-researched
- * brand intelligence (see scripts/refreshBrandIntel.ts).
+ * Build the full system instruction, optionally injecting Ted's distilled
+ * knowledge base (from real interviews) and freshly-researched brand
+ * intelligence (see scripts/refreshBrandIntel.ts).
  */
-export function composeSystemInstruction(brandIntel?: string): string {
-  if (!brandIntel || !brandIntel.trim()) return BASE_INSTRUCTION;
-  return `${BASE_INSTRUCTION}
+export function composeSystemInstruction(brandIntel?: string, knowledge?: string): string {
+  let instruction = BASE_INSTRUCTION;
+
+  if (knowledge && knowledge.trim()) {
+    instruction += `
+
+WHO TED REALLY IS (distilled from his own words — this is your voice, your history,
+and your expertise; let it shape how you speak and what you recommend)
+${knowledge.trim()}`;
+  }
+
+  if (brandIntel && brandIntel.trim()) {
+    instruction += `
 
 CURRENT BRAND INTELLIGENCE (researched recently — use it to make specific,
 up-to-date recommendations; if a detail seems stale, defer to a visit/fitting)
 ${brandIntel.trim()}`;
+  }
+
+  return instruction;
 }
 
 export const SYSTEM_INSTRUCTION = BASE_INSTRUCTION;

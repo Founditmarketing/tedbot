@@ -2,6 +2,7 @@ import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { composeSystemInstruction, GREETING } from '../services/tedPersona';
 import { getBrandIntelText } from '../services/brandIntel';
+import { TED_KNOWLEDGE } from '../services/tedKnowledge';
 
 export const maxDuration = 30;
 
@@ -78,7 +79,7 @@ export default async function handler(request: VercelRequest, response: VercelRe
   try {
     const genAI = new GoogleGenerativeAI(apiKey);
     const modelName = process.env.GEMINI_MODEL || 'gemini-3.5-flash';
-    const systemInstruction = composeSystemInstruction(getBrandIntelText());
+    const systemInstruction = composeSystemInstruction(getBrandIntelText(), TED_KNOWLEDGE);
 
     const contents = messages
       .filter((m) => m.content && m.content.trim() !== '')

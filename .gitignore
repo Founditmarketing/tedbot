@@ -6,3 +6,8 @@ dist
 .vercel
 *.log
 .DS_Store
+
+# Raw interview transcripts may contain private / third-party info — keep local only.
+# The distilled, public-safe knowledge lives in services/tedKnowledge.ts.
+data/knowledge/*.md
+!data/knowledge/README.md
