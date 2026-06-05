@@ -5,9 +5,9 @@
  * API server (scripts/devApi.ts), so behavior is identical in both places.
  */
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import { composeSystemInstruction, GREETING } from './tedPersona';
-import { getBrandIntelText } from './brandIntel';
-import { TED_KNOWLEDGE } from './tedKnowledge';
+import { composeSystemInstruction, GREETING } from './tedPersona.js';
+import { getBrandIntelText } from './brandIntel.js';
+import { TED_KNOWLEDGE } from './tedKnowledge.js';
 
 export interface ChatMessage {
   role: 'user' | 'assistant';

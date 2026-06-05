@@ -2,7 +2,7 @@
  * Loads cached brand intelligence (researched by scripts/refreshBrandIntel.ts)
  * and formats it for injection into Ted's system instruction.
  */
-import intel from '../data/brandIntel.json';
+import intel from '../data/brandIntel.json' with { type: 'json' };
 
 interface BrandIntelEntry {
   name: string;

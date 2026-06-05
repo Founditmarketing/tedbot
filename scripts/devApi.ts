@@ -8,7 +8,7 @@ import { createServer } from 'node:http';
 import { readFileSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
-import { generateTedReply, type ChatMessage } from '../services/tedChat';
+import { generateTedReply, type ChatMessage } from '../services/tedChat.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');

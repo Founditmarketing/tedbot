@@ -15,7 +15,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
-import { BRANDS } from '../services/tedPersona';
+import { BRANDS } from '../services/tedPersona.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');

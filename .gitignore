@@ -11,3 +11,5 @@ dist
 # The distilled, public-safe knowledge lives in services/tedKnowledge.ts.
 data/knowledge/*.md
 !data/knowledge/README.md
+
+.vercel

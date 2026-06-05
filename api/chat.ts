@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { generateTedReply, type ChatMessage } from '../services/tedChat';
+import { generateTedReply, type ChatMessage } from '../services/tedChat.js';
 
 export const maxDuration = 30;
 
